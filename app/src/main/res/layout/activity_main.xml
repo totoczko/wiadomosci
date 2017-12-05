@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.martyna.wiadomosci.MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="140dp"
+        android:gravity="top"
+        android:ems="14"
+        android:inputType="textPersonName"
+        android:text="@string/wpisz_wiadomo"
+        android:layout_centerHorizontal="true"
+        android:background="#fff"
+        android:padding="10dp"
+        android:layout_marginTop="32dp"/>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wy_lij"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:minWidth="64dp"
+        android:background="#3F51B5"
+        android:textColor="#FFFFFF"
+        android:onClick="SaveMessage"/>
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Wiadomosci</string>
+    <string name="wpisz_wiadomo">Wpisz wiadomość</string>
+    <string name="wy_lij">Wyślij</string>
+</resources>
